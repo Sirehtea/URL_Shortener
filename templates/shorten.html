@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortened URL</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Shortened URL</h1>
+        <p>Original URL: <a href="{{ original_url }}" target="_blank">{{ original_url }}</a></p>
+        <p>Shortened URL: <a href="{{ short_url }}" target="_blank">{{ short_url }}</a></p>
+        <a href="/" class="back-btn">Shorten Another</a>
+    </div>
+</body>
+</html>
