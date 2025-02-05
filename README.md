@@ -13,7 +13,7 @@ Een eenvoudige URL-verkorter gebouwd met **Flask** en **SQLite**.
 1. **Clone de repository**
 
 ```bash
-git clone https://github.com/Sirehtea/URL_shortener.git
+git clone https://github.com/Sirehtea/URL_Shortener.git
 cd url-shortener
 ```
 
@@ -36,7 +36,7 @@ python.exe .\main.py
 ## MapStructuur
 
 ```bash
-URL_SHORTENER/
+URL_Shortener/
 │── static/
 │   ├── style.css
 │── templates/
